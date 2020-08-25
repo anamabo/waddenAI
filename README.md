@@ -1,6 +1,6 @@
 ## Prediction of the suspended particle matter in the Wadden Sea using machine learning and remote sensing
 
-For the folks who don't know where the Wadden Sea is, it is located in the noth-west part of the Netherlands, as sown in the figure of below:
+For the folks who don't know where the Wadden Sea is, it is located in the noth-west part of the Netherlands, as shown in the figure of below:
 
 ![alt text](https://github.com/anamabo/waddenAI/blob/master/plots/wadden.PNG)
 
@@ -13,12 +13,12 @@ Figure 1: Types of suspended matter
 
 
 
-In the file called: phase1.pdf my team at Deltares and I built a data-driven model to predict SPM in the Dutch Wadden Sea. Both system dynamics (e.g. surge, wind velocity, and wind direction), as well as ecological and spatial-temporal effects (e.g. dissolved concentration of several chemical elements; chlorophyll-a content; months; seasons and tidal inlets) were used as forcing parameters. This data-driven model is able to make instant predictions of the SPM content in the Dutch Wadden Sea, considering all the complex processes that are present in the data. However, the model was trained on sparsely distributed, biweekly obtained, in-situ measurements, which makes it difficult to validate against physically-based numerical models.
+In the file called: phase1.pdf my team at Deltares and I built a data-driven model to predict SPM in the Dutch Wadden Sea, using in-situ data only. Both system dynamics (e.g. surge, wind velocity, and wind direction), as well as ecological and spatial-temporal effects (e.g. dissolved concentration of several chemical elements; chlorophyll-a content; months; seasons and tidal inlets) were used as forcing parameters. This data-driven model is able to make instant predictions of the SPM content in the Dutch Wadden Sea, considering all the complex processes that are present in the data. However, the model was trained on sparsely distributed, biweekly obtained, in-situ measurements, which makes it difficult to validate against physically-based numerical models.
 
 Remote sensing might be a good solution to improve the spatial coverage of spm. In the second phase of the project, we explored this idea. In this repository you find the following material:
 
 * Code/: The folder containing the Code to preprocess the data used to create the machibe learning model.
-* project_all.pptx: Final presentation of the project.
+* project_all.pptx: Final presentation of the project and conclusions.
 
 The data to tranin the machine learning models is available upon request. 
 
